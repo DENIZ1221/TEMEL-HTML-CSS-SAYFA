@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-image: url(	https://cars-website-yt.netlify.app/images/bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    height: 12%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    display: flex;
+    align-items: center;
+    height: 88%;
+    
+}
+section .col{
+    flex-basis: 50%;
+}
+.col h1{
+    color: white;
+    margin-top: 10px;
+}
+.col p{
+    color: white;
+    margin-top: 10px;
+    font-size:13px;
+   
+}
+.col button{
+    margin-top: 10px;
+}
+.cards{
+    max-width: 500px;
+    margin-left:70px ;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 0 8px;
+    background-image: url(	https://cars-website-yt.netlify.app/images/pic-1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px 8px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    transition: .25s ease-in all;
+}
+.card:hover{
+    transform: translateY(-10px);
+    border: 1px solid gray;
+}
+.card-heard{
+    background-color: gray;
+}
+.card-bottom button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: .25s ease-in all;
+}
+.card-bottom button:hover{
+    background-color: red;
+    border:1px solid blue
+}
+.card-bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+section h1{
+    font-size: 80px;
+}
